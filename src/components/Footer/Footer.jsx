@@ -4,10 +4,10 @@ function Footer(){
     const year = new Date().getFullYear();
     return(
         <footer className='site-footer'>
-           <p>&copy; <span class="footer-year">2024</span> Astha.
-            Built with HTML,CSS,JS</p> 
+            <p>
+        &copy;{year} Astha Priya.Built with React🌐
+    </p>
         </footer>
-
     )
 }
-export default Footer; 
+export default Footer; // We must export it so App.jsx can use it ! 
