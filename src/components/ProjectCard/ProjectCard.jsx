@@ -12,7 +12,8 @@ function ProjectCard({ project }) {
                   <span key={index} className='tag'>{t}</span>
                 ))}
               </div>
-              <button className='btn btn-primary'>View Project</button>
+              <button className='btn btn-primary'>View Live 🚀</button>
+              <button className='btn btn-secondary'>GitHub 💻</button>
         </div>
       </article>
   )
