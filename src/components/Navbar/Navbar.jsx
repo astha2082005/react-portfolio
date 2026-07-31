@@ -12,7 +12,7 @@ function Navbar({ theme, toggleTheme }) {
     return (
         <header className="site-header">
             <nav className="navbar">
-                <div className="logo">Ap</div>
+                <div className="logo">AP</div>
                
                 <ul className={isMenuOpen ? "nav-links open" : "nav-links"}>
                     <li>

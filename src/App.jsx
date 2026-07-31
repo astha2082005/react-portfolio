@@ -7,7 +7,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
- 
+import ProjectDetails from './pages/ProjectDetails';
+
 function App() {
   const [theme, setTheme] = useState('light');
  
@@ -36,6 +37,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/projectdetails" element={<ProjectDetails />} />
       </Routes>
       <Footer />
     </BrowserRouter>
