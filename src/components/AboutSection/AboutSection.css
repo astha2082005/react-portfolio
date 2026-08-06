@@ -34,7 +34,7 @@
 .about-copy p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(white);
+  color: var(--text-light);
 }
  
 @media (max-width: 860px) {
