@@ -58,7 +58,7 @@ position: absolute;
 top: 70px;
 left: 0;
 width: 100%;
-background: #1B4F72;
+background: #3e5f48;
 flex-direction: column;
 text-align: center;
 padding: 20px 0;
@@ -67,4 +67,9 @@ gap: 20px;
 .nav-links.open {
 display: flex;
 }
+}
+
+/* 🌙 DARK MODE */
+body[data-theme="dark"] .nav-links {
+    background: #111827;
 }
